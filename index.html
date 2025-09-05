@@ -13,31 +13,36 @@
 </head>
 
 <body>
+  
   <main>
-<div class="container">
-    <div class="main-card">
-      <div class="image-container">
-        <img src="./images/image-product-desktop.jpg" alt="product image" >
-      </div>
-      <div class="text-container">
-        <h5>Perfume</h5>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.</p>
-
-        <div class="price">
-          <h1>$149.99</h1>
-          <h4>$169.99</h4>
+    <div class="container">
+      <div class="main-card">
+        <div class="image-container">
+          <picture>
+            <!-- Mobile image -->
+            <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)">
+            <!-- Desktop image -->
+            <img src="./images/image-product-desktop.jpg" alt="product image">
+          </picture>
         </div>
-        <button>
-          <img src="./images/icon-cart.svg" alt="icon cart">
-         <span>Add to Cart</span> 
-        </button>
+        <div class="text-container">
+          <h5>Perfume</h5>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+          <div class="price">
+            <h1>$149.99</h1>
+            <h4>$169.99</h4>
+          </div>
+          <button>
+            <img src="./images/icon-cart.svg" alt="icon cart">
+            <span>Add to Cart</span>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
   </main>
-  
+
 </body>
 
 </html>
